@@ -97,7 +97,7 @@ import{C as e,E as t,M as n,S as r,T as i,_ as a,a as o,f as s,g as c,i as l,j a
   </main>
 
 </div>
-`;var V=[{musicPath:`./temp/music1.mp3`},{musicPath:`./temp/music2.mp3`},{musicPath:`./temp/music3.mp3`},{musicPath:`./temp/music4.mp3`},{musicPath:`./temp/music5.mp3`}],H=function(e,t,n){for(let r=0,i=e.length;r<i;r++)e[r].addEventListener(t,n)},Wn=document.querySelector(`[data-music-list]`);for(let e=0,t=V.length;e<t;e++)Wn.innerHTML+=`
+`;var V=[{musicPath:`./temp/music1.mp3`},{musicPath:`./temp/music2.mp3`},{musicPath:`./temp/music3.mp3`},{musicPath:`./temp/music4.mp3`}],H=function(e,t,n){for(let r=0,i=e.length;r<i;r++)e[r].addEventListener(t,n)},Wn=document.querySelector(`[data-music-list]`);for(let e=0,t=V.length;e<t;e++)Wn.innerHTML+=`
   <li>
     <button class="music-item ${e===0?`playing`:``}" data-playlist-toggler data-playlist-item="${e}">
       <img src="/19lpy${ue}" width="800" height="800" class="img-cover">
